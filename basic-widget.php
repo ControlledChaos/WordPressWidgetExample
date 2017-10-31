@@ -24,8 +24,8 @@
 				$title = $instance['title'];
 			endif;
 
-			echo '<label for="' . $this->get_field_id('title') . '">Name</label>';
-			echo '<input id="' . $this->get_field_id('title') . '" type="text" name="' . $this->get_field_name('title') . '" value="' . $title . '">';
+			echo '<label class="widefat" for="' . $this->get_field_id('title') . '">Name</label>';
+			echo '<input class="widefat" id="' . $this->get_field_id('title') . '" type="text" name="' . $this->get_field_name('title') . '" value="' . $title . '">';
 		}
 		//submits form values and clear data
 		public function update($new_instance, $old_instance){
